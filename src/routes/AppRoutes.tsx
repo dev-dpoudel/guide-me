@@ -5,7 +5,7 @@ import Landing from 'app/pages/Landing';
 
 const AppRoutes = (): React.ReactElement => (
   <Switch>
-    <Route path="/home" component={Landing} />
+    <Route path="/load" component={Landing} />
   </Switch>
 );
 
