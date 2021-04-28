@@ -6,7 +6,7 @@ import 'app/theme';
 import Loading from 'app/components/Loading';
 import AppRoutes from 'app/routes/AppRoutes';
 
-const App = () => (
+const App = (): React.ReactElement => (
   <Suspense fallback={<Loading />}>
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppRoutes />

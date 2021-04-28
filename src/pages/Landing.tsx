@@ -3,6 +3,6 @@ import Cracked from 'app/components/Animation/Cracked';
 
 import './Landing.css';
 
-const Landing = () => <Cracked>guide-me</Cracked>;
+const Landing = (): React.ReactElement => <Cracked>guide-me</Cracked>;
 
 export default Landing;

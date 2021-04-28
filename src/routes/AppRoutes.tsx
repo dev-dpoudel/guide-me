@@ -3,9 +3,9 @@ import { Route, Switch } from 'react-router-dom';
 
 import Landing from 'app/pages/Landing';
 
-const AppRoutes = () => (
+const AppRoutes = (): React.ReactElement => (
   <Switch>
-    <Route path="/" component={Landing} />
+    <Route path="/home" component={Landing} />
   </Switch>
 );
 
